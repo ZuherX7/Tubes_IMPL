@@ -1,33 +1,23 @@
-Aplikasi Manajemen Toko Elektronik adalah solusi perangkat lunak yang dirancang untuk meningkatkan efisiensi operasional, mengurangi kesalahan manusia, dan memberikan layanan pelanggan yang lebih baik di Toko Stones Cell. Aplikasi ini mengotomatiskan berbagai proses seperti pengelolaan stok, transaksi penjualan, pelaporan, dan manajemen karyawan.
+Deskripsi Proyek
+Sistem Manajemen Seleksi Nasional Berbasis Tes (SNBT) adalah platform terintegrasi untuk mengelola proses seleksi masuk perguruan tinggi negeri di Indonesia. Sistem ini mencakup pendaftaran peserta, pelaksanaan ujian, hingga pengumuman hasil seleksi, dengan fokus pada efisiensi, akurasi, dan transparansi.
 
 Fitur Utama
-Dashboard:
-- Menampilkan grafik penjualan, keuntungan, dan pengeluaran.
-- Analisis performa bisnis berdasarkan data real-time.
-
-Manajemen Produk:
-- Tambah, edit, hapus, dan kelompokkan produk berdasarkan kategori.
-- Penambahan promosi atau diskon produk.
-
-Transaksi:
-- Sistem kasir terintegrasi dengan fitur pencatatan penjualan dan pencetakan struk.
-- Opsi pembayaran beragam.
-
-Manajemen Pelanggan:
-- Melacak riwayat pembelian pelanggan.
-- Memberikan wawasan untuk promosi dan program loyalitas.
-
-Pelaporan:
-- Laporan otomatis mingguan, bulanan, dan tahunan.
-- Opsi laporan khusus berdasarkan kriteria tertentu.
-
-Manajemen Karyawan:
-- Mengatur jadwal kerja, gaji, dan rincian informasi karyawan.
-- Memastikan transparansi dalam penggajian.
-
-Pengelolaan Inventaris:
-- Memantau stok barang secara real-time.
-- Integrasi dengan modul pembelian dan penjualan.
+Pendaftaran Online: 
+   - Peserta dapat mendaftar dengan mengisi formulir secara online.
+   - Verifikasi data otomatis dan pemberian nomor registrasi unik.
+Penjadwalan Tes:
+   - Admin dapat mengatur tanggal, waktu, dan lokasi tes.
+   - Peserta menerima pemberitahuan jadwal melalui email.
+Pelaksanaan Tes:
+   - Pengawas dapat memantau tes secara real-time.
+   - Peserta menjawab soal ujian secara online.
+Penilaian dan Seleksi:
+   - Penilaian otomatis berdasarkan bobot nilai.
+   - Sistem menghasilkan daftar peserta yang lolos seleksi.
+Pengumuman Hasil:
+   - Hasil seleksi diumumkan secara online.
+   - Peserta menerima notifikasi hasil melalui email.
+  
 
 Anggota Kelompok
 - 2250081043_Zaky Zuhair HS
