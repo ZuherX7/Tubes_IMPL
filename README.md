@@ -5,15 +5,19 @@ Fitur Utama
 Pendaftaran Online:
 - Peserta dapat mendaftar dengan mengisi formulir secara online.
 - Verifikasi data otomatis dan pemberian nomor registrasi unik.
+
 Penjadwalan Tes:
 - Admin dapat mengatur tanggal, waktu, dan lokasi tes.
 - Peserta menerima pemberitahuan jadwal melalui email.
+
 Pelaksanaan Tes:
 - Pengawas dapat memantau tes secara real-time.
 - Peserta menjawab soal ujian secara online.
+
 Penilaian dan Seleksi:
 - Penilaian otomatis berdasarkan bobot nilai.
 - Sistem menghasilkan daftar peserta yang lolos seleksi.
+
 Pengumuman Hasil:
 - Hasil seleksi diumumkan secara online.
 - Peserta menerima notifikasi hasil melalui email.
