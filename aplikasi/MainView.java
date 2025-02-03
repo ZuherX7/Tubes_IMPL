@@ -6,8 +6,6 @@ public class MainView {
     private final JFrame frame;
     private JPanel mainPanel;
 
-    
-
     public MainView(JFrame frame) {
         this.frame = frame;
     }
@@ -39,22 +37,29 @@ public class MainView {
         // Main Panel (Dynamic Content)
         mainPanel = new JPanel(new CardLayout());
 
-        KartuPesertaView kartuPesertaView = new KartuPesertaView();
-        mainPanel.add(kartuPesertaView.getPanel(), "Kartu Peserta");
-        navigationView.addNavigationListener("Cetak Kartu", e -> switchPanel("Kartu Peserta"));
-        navContainer.add(mainPanel, BorderLayout.CENTER);
-        backgroundPanel.add(navContainer);
-
-        // Menambahkan panel-panel utama
         HomeView homeView = new HomeView();
         InformasiView informasiView = new InformasiView();
+        DaftarView daftarView = new DaftarView();
+        KartuPesertaView kartuPesertaView = new KartuPesertaView();
+        PengumumanHasilView pengumumanHasilView = new PengumumanHasilView();
+        ProfileView profileView = new ProfileView();
 
         mainPanel.add(homeView.getPanel(), "Home");
         mainPanel.add(informasiView.getPanel(), "Informasi");
+        mainPanel.add(daftarView.getPanel(), "Daftar");
+        mainPanel.add(kartuPesertaView.getPanel(), "Kartu Peserta");
+        mainPanel.add(pengumumanHasilView.getPanel(), "Pengumuman Hasil");
+        mainPanel.add(profileView.getPanel(), "Profile");
 
-        // Mengatur action button navigasi
         navigationView.addNavigationListener("Home", e -> switchPanel("Home"));
         navigationView.addNavigationListener("Informasi", e -> switchPanel("Informasi"));
+        navigationView.addNavigationListener("Daftar", e -> switchPanel("Daftar"));
+        navigationView.addNavigationListener("Cetak Kartu", e -> switchPanel("Kartu Peserta"));
+        navigationView.addNavigationListener("Pengumuman Hasil", e -> switchPanel("Pengumuman Hasil"));
+        navigationView.addNavigationListener("Profile", e -> switchPanel("Profile"));
+
+        navContainer.add(mainPanel, BorderLayout.CENTER);
+        backgroundPanel.add(navContainer);
     }
 
     private void switchPanel(String panelName) {
